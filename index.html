@@ -1,44 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form Junaid Coding College </title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Logo</h1>
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Login</a>
-        </nav>
-    </header>
-    <section class="Home">
-        <div class="text-box">
-            <h1>Hi, i'm Junaid Ali Shah</h1>
-            <h1>
-                and i'm
-                <span class="skills"></span>
-            </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, at totam exercitationem voluptatibus, quaerat doloribus velit quasi magni, distinctio esse eum aperiam adipisci quos veniam quia id vero quas minima.</p>
-            <span class="icon-box">
-                <i class='bx bxl-facebook'></i>
-                <i class='bx bxl-linkedin' ></i>
-                <i class='bx bxl-twitter' ></i>
-            </span>
-            <span class="btn-box">
-                <button type="button" class="btn">Download cv</button>
-                <button type="button" class="btn btn-2">Contact me</button>
-            </span>
-        </div>
-        <img src="web developer.png" class="img" alt="">
-    </section>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="js.js"></script>
+<div class="wrapper">
+  <form action="">
+    <h1>Login</h1>
+    <div class="input-box">
+      <input type="text" placeholder="Username" required>
+      <i class="bx bxs-user"></i>
+    </div>
+    <div class="input-box">
+      <input type="password" placeholder="Password" required>
+      <i class="bx bxs-lock-alt"></i>
+    </div>
+    <div class="remember-forgot">
+      <label><input type="checkbox">Remember Me</label>
+      <a href="#">Forgot Password</a>
+    </div>
+    <button type="submit" class="btn">Login</button>
+    <div class="register-link">
+      <p>Dont have a accoundt?</p>
+      <a href="#">Register</a>
+    </div>
+  </form>
+</div>
 </body>
 </html>
